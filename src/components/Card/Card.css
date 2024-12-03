@@ -16,7 +16,7 @@
 .card {
     display: flex;
     flex-direction: column;
-    background-color: var(--card_black);
+    /* background-color: var(--card_black); */
     gap: 5rem;
     padding: 5.8rem 3.5rem;
     border: 1px solid var(--card_stroke);

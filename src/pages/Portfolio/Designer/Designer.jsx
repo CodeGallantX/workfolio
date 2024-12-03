@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { FaFigma, FaBehance } from "react-icons/fa";
 import { CiViewList } from "react-icons/ci";
 import Navbar from '../../../components/Navbar/Navbar';
@@ -97,7 +97,7 @@ const Designer = () => {
       </section>
 
       <footer className="footer">
-        <p>&copy; {new Date().getFullYear()} Tosin Faith. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Samuel John. All rights reserved.</p>
       </footer>
     </>
   );

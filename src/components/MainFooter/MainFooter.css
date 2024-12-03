@@ -26,26 +26,12 @@
 .footer-top-right {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     flex-wrap: wrap; 
 }
 
-.footer-email-input {
-    display: flex;
-    align-items: center;
-    padding: 10px 15px;
+.footer-top-right input{
     border-radius: 50px;
-    border: 2px solid black;
-    flex: 1;
-    gap: 10px;
-}
-
-.footer-email-input input {
-    outline: none;
-    border: none;
-    background: transparent;
-    font-size: 16px;
-    width: 100%;
 }
 
 .subscribe {
@@ -71,10 +57,6 @@
     gap: 20px;
     margin-bottom: 30px;
     flex-wrap: wrap;
-}
-
-.footer-email-input:hover {
-    border-color: black;
 }
 
 .subscribe:hover {

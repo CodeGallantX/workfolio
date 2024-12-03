@@ -16,16 +16,16 @@ const Card = ({ title, to, emoji, pillText }) => {
 
   return (
     <div className="card-container" data-aos="fade-up" data-aos-delay="200">
-      <Link to={to} className="card">
+      <Link to={to} className="card bg-gray-800">
         <div className="card_pill">
-          <button
-            className="pill"
+          <span
+            className="pill flex flex-row items-center justify-center px-2 gap-2"
             data-aos="zoom-in"
             data-aos-delay="300"
             data-aos-duration="500"
           >
-            {pillText} <i data-feather="loader"></i>
-          </button>
+            {pillText} <i className="transform -translate-y-1" data-feather="loader"></i>
+          </span>
         </div>
         <div
           className="card_content"

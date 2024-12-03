@@ -1,6 +1,4 @@
-import React from 'react';
 import logo from "../../assets/logo.jpg";
-import user_icon from "../../assets/user_icon.svg";
 
 import './MainFooter.css';
 
@@ -9,16 +7,17 @@ const MainFooter = () => {
     <div className='mainfooter'>
       <div className='footer-top'>
         <div className='footer-top-left'>
-          <img src={logo} alt="Company Logo" />
-          <p>Africa's Most Celebrated Woman in Tech</p>
+          {/* <img src={logo} alt="Company Logo" /> */}
+          <a href='/' className='text-3xl font-medium text-gray-600 hover:text-[#5e89ed] transition-all duration-300 ease'>Code<span className="text-[#5e89ed]">Gallant</span>X</a>
+          <p className="italic text-gray-500">&ldquo;A transformer is not defined by the cog in its chest, but by spark in its heart...&rdquo;</p>
         </div>
         <div className='footer-top-right'>
-          <div className="footer-email-input">
-            <img src={user_icon} alt="User Icon" />
+          <div className="flex flex-row items-center justify-center">
             <input
               type="email"
               placeholder="Enter your email"
               aria-label="Email Address"
+              className="outline-none px-6 w-full text-gray-600 border border-gray-300 rounded-md py-3 focus:ring-1 focus:ring-accent-color transition-all duration-300 ease-in-out rounded-xl"
             />
           </div>
           <div className="subscribe">Subscribe</div>

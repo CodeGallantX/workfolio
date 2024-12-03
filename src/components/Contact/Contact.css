@@ -10,7 +10,7 @@
 }
 
 .contact {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Outfit', sans-serif;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -48,8 +48,8 @@
     font-size: 70px;
     font-weight: 700;
     background: var(--accent-color);
-    background-clip: text;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -80,7 +80,7 @@
 .contact-right {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     margin: 0 auto;
     width: 100%;
     max-width: none;
@@ -96,7 +96,6 @@ select {
     padding: 12px; 
     font-size: 16px; 
     border: 1px solid #ccc; 
-    border-radius: 4px; 
     background-color: #fff; 
     color: #333;
     outline: none; 
@@ -130,12 +129,11 @@ option:hover {
     width: 100%;
     border: 1px solid #D7D0DD;
     padding: 10px;
-    border-radius: 4px;
     font-size: 18px;
     color: black;
     transition: var(--transition-duration);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 .contact-right input:focus,
@@ -148,7 +146,7 @@ option:hover {
 .contact-right textarea::placeholder {
     font-size: 18px;
     color: #999;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 .contact-right textarea {
@@ -162,12 +160,11 @@ option:hover {
     align-items: center;
     gap: 1rem; 
     padding: 1rem;
-    border-radius: 8px;
   }
   
   .info-item img {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     object-fit: contain;
     filter: invert(64%) sepia(39%) saturate(387%) hue-rotate(201deg) brightness(92%) contrast(87%);
     transition: filter 0.3s ease;
@@ -186,7 +183,6 @@ option:hover {
     align-self: flex-start;
     padding: 12px 30px;
     color: white;
-    border-radius: 50px;
     font-size: 18px;
     cursor: pointer;
     background-color: var(--accent_colour);
@@ -320,7 +316,6 @@ option:hover {
     }
 
     .contact-submit {
-        border-radius: 7px;
         background-color: var(--accent_colour);
         border: none;
         color: white;

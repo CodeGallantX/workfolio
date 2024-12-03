@@ -1,50 +1,50 @@
 [
   {
-      "title": "KindRaise",
+      "title": "Tripout.co",
       "description": "KindRaise helps non-profits raise money easily, was developed during a hackathon with a team of five.",
       "image": "/kindraise.jpg",
-      "link": "http://kindraise.vercel.app",
-      "stack": ["React", "Redux", "Node.js", "MongoDB"],
-      "github": "https://github.com/username/kindraise"
+      "link": "http://tripout-tour-v4.vercel.app",
+      "stack": ["React", "Redux", "Laravel", "SQL"],
+      "github": "https://github.com/codegallantx/kindraise"
   },
   {
-      "title": "CliqueShoppa",
-      "description": "CliqueShoppa is an online reselling platform that enables anyone to start a business from home with zero capital.",
+      "title": "CivicTrack",
+      "description": "CivicTrack is an open database...",
       "image": "/cliqueshoppa.png",
-      "link": "https://cliqueshoppaweb.vercel.app/",
-      "stack": ["React", "Node.js", "MongoDB"],
-      "github": "https://github.com/username/cliqueshoppa"
+      "link": "https://civictrack.vercel.app/",
+      "stack": ["NextJS", "TailwindCSS", "JSON"],
+      "github": "https://github.com/codegallantx/civictrack"
   },
   {
-    "title": "Micdee",
+    "title": "LevelUp Recyclers",
     "description": "Micdee is a real estate company in Sub-Saharan Africa. House agents can put up listings of houses for sale, lease, or rent.",
     "image": "/micdee.png",
-    "link": "https://micdee-real-estate.vercel.app/",
-    "stack": ["React", "Redux", "Firebase"],
-    "github": "https://github.com/username/micdee-estates"
+    "link": "https://leveluprecyclers.com/",
+    "stack": ["NextJS", "TailwindCSS"],
+    "github": ""
   },
   {
-      "title": "Shop.Rhai",
-      "description": "Shop.Rhai is a fashion brand for modern women, they sell Luxury Urban Outfits! All made in Aba, Nigeria.",
+      "title": "ReleCloud",
+      "description": "ReleCloud is a space travel agency...",
       "image": "/rhai.png",
-      "link": "https://myblogplatform.com",
-      "stack": ["Next.js", "CSS Modules"],
-      "github": "https://github.com/username/shoprhai"
+      "link": "",
+      "stack": ["HTML", "TailwindCSS", "Python", "Django"],
+      "github": "https://github.com/codegallantx/relecloud"
   },
   {
-    "title": "Purple Letter",
-    "description": "I wrote a love letter to my longtime crush who lives abroad, but unfortunately, I never received a reply.",
+    "title": "EduConnect",
+    "description": "A platform for students to ask questions and to answer questions...",
     "image": "/tade.png",
     "link": "https://leter-to-my-crush.vercel.app/",
-    "stack": ["React", "Node.js", "PostgreSQL"],
-    "github": "https://github.com/username/quicknotes"
+    "stack": ["React", "Node.js"],
+    "github": "https://github.com/codegallantx/educonect"
   },
   {
-      "title": "Todo-list",
-      "description": "I saw a really nice to-do list design on Dribbble and recreated it with React. Now I use it to plan my tasks for the day.",
+      "title": "Chef",
+      "description": "A kitchenware e-commerce website",
       "image": "/todolist.png",
       "link": "https://todo-list-thetosinfaith.vercel.app/",
-      "stack": ["React", "Styled Components"],
+      "stack": ["React", "TailwindCSS"],
       "github": "https://github.com/username/todo-list"
   }
 ]

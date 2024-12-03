@@ -36,7 +36,7 @@ const App = () => {
         <Route path="/awards" element={<Awards />} />
 
 
-        <Route path="*" element={<div>Page not found</div>} />
+        <Route path="*" element={<div className="text-center text-4xl font-bold text-accent_colour mt-10">Page not found</div>} />
       </Routes>
     </BrowserRouter>
   );

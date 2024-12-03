@@ -18,7 +18,7 @@ const Portfolio = () => {
   }, []);
 
   const hoverEffect = {
-    whileHover: { scale: 1.05, transition: { duration: 0.3 } },
+    whileHover: { scale: 1.03, transition: { duration: 0.3 } },
     whileTap: { scale: 0.95 },
   };
 
@@ -33,14 +33,14 @@ const Portfolio = () => {
           <div className="portfolio-content">
             <h2>I build websites</h2>
             <p>
-              I build webapps using the best tools for the job, but React is my go-to framework.
+              I build web apps using the best tools for the job, but React is my go-to framework.
             </p>
             <motion.span
-              className="arrow-icon"
+              className="arrow-icon text-center ease-in-out"
               onClick={() => navigate("/portfolio/developer")}
               {...hoverEffect}
             >
-              See What I've Built →
+              See What I&apos;ve Built →
             </motion.span>
           </div>
         </div>

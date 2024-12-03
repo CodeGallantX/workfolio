@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Navbar.css';
-import logo from "../../assets/logo.jpg";
+// import logo from "../../assets/logo.jpg";
 import { BiMenu } from 'react-icons/bi';
 import { CgClose } from 'react-icons/cg';
 import { useNavigate } from 'react-router-dom';
@@ -21,7 +21,8 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-logo">
-          <img src={logo} alt="Logo" onClick={() => navigate('/')} />
+          {/* <img src={logo} alt="Logo" onClick={() => navigate('/')} /> */}
+          <a href='/' className='text-3xl font-medium text-gray-600 group'>Code<span className="text-[#5e89ed] group-hover:text-6xl transition-all duration-300 ease">Gallant</span>X</a>
         </div>
         <div>
           <ul className="navbar-menu">
@@ -30,7 +31,7 @@ const Navbar = () => {
             <li>
               <div className="nav-connect">
                 <a
-                  href="https://docs.google.com/document/d/12_OZNg2Ae8xLvymKcp5qaXHZE-obTlYNlNAxQ_nS5UI/view"
+                  href="JOHN_SAMUEL_RESUME.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta-button"
@@ -58,7 +59,7 @@ const Navbar = () => {
                   <a href="#" onClick={() => navigate('/blog')}>Blog</a>
                   <div className="cta-button-mobile">
                     <a
-                      href="https://docs.google.com/document/d/12_OZNg2Ae8xLvymKcp5qaXHZE-obTlYNlNAxQ_nS5UI/view"
+                      href="/JOHN_SAMUEL_RESUME.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

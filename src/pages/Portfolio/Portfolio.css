@@ -38,7 +38,7 @@
 
 .portfolio-content h2 {
   font-size: 2.5rem;
-  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -50,11 +50,11 @@
   cursor: pointer;
   height: 50px;
   max-width: 200px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 .arrow-icon {
-  font-size: 1rem;
+  /* /* font-size: 1rem; */
   display: inline-block;
   padding: 10px 20px;
   border: 2px solid transparent;
@@ -72,15 +72,17 @@
 .portfolio-left .arrow-icon {
   border-color: white;
   color: white;
+  transition: all 0.3s ease;
 }
 
 .arrow-icon:hover {
-  background-color: rgba(0, 0, 255, 0.1); 
-  color: var(--accent_colour);
+  background: var(--accent_colour);
+  color: white;
+  border-color: var(--accent_colour);
 }
 
 .portfolio-left .arrow-icon:hover {
-  background-color: rgba(255, 255, 255, 0.2); 
+  /* background-color: rgba(255, 255, 255, 0.2);  */
   color: white;
 }
 
@@ -96,7 +98,7 @@
   }
 
   .portfolio-content p{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Outfit", sans-serif;
     max-width: 500px;
     line-height: 35.5px;
   }
@@ -126,7 +128,7 @@
   .portfolio-content p{
     margin-top: 5%;
     font-size: 16px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Outfit", sans-serif;
     max-width: 500px;
     line-height: 28.5px;
   }

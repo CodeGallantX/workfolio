@@ -33,13 +33,13 @@ const About = () => {
             <img src={User} alt="Logo" />
           </div>
           <div className="about-text" data-aos="fade-up">
-            <h1>Hello, I'm Tosin Faith.</h1>
+            <h1>Hello, I'm Samuel John.</h1>
 
             <p>Well, if you are here, you know me.</p>
 
             <p>You know I don't do it at all unless it is done right.</p>
 
-            <p>My name is Oluwatosin Faith Ogungbaye — but you can call me Big Tee!</p>
+            <p>My name is Samuel John Ayobami — but you can call me CodeGallantX</p>
             <p>
               I’m currently a Frontend Web Developer, based in Lagos, Nigeria. I use React to create beautiful, functional websites. Right now, <a href="https://docs.google.com/document/d/12_OZNg2Ae8xLvymKcp5qaXHZE-obTlYNlNAxQ_nS5UI/view?tab=t.0">I’m looking for a job</a> where I can put my skills to good use and work on meaningful projects.
             </p>
