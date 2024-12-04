@@ -13,10 +13,10 @@ const Navbar = () => {
     <header>
       <div className="navbar-container">
         <div className="navbar-links">
-          <div className="navbar-link" onClick={() => navigate('/')}>
+          <a href="/" className="navbar-link">
             Home
-          </div>
-          <div className="navbar-link" onClick={() => navigate('/about')}>
+          </a>
+          <a href="/about" className="navbar-link">
             About
           </div>
         </div>
@@ -26,8 +26,8 @@ const Navbar = () => {
         </div>
         <div>
           <ul className="navbar-menu">
-            <li className="navbar-menu-item" onClick={() => navigate('/portfolio')}>Projects</li>
-            <li className="navbar-menu-item" onClick={() => navigate('/blog')}>Blog</li>
+            <li className="navbar-menu-item"><a href="/portfolio">Projects</a></li>
+            <li className="navbar-menu-item"><a href="/blog">Blog</a></li>
             <li>
               <div className="nav-connect">
                 <a
@@ -53,10 +53,10 @@ const Navbar = () => {
             <div className="navbar-mobile-menu">
               <div className="navbar-mobile-menu-wrapper">
                 <nav>
-                  <a href="#" onClick={() => navigate('/')}>Home</a>
-                  <a href="#" onClick={() => navigate('/about')}>About</a>
-                  <a href="#" onClick={() => navigate('/portfolio')}>Projects</a>
-                  <a href="#" onClick={() => navigate('/blog')}>Blog</a>
+                  <a href="/">Home</a>
+                  <a href="/about">About</a>
+                  <a href="/portfolio">Projects</a>
+                  <a href="/blog">Blog</a>
                   <div className="cta-button-mobile">
                     <a
                       href="/JOHN_SAMUEL_RESUME.pdf"
