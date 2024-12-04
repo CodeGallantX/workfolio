@@ -31,12 +31,12 @@ const About = () => {
       <div className="about-container">
   <div className="about-content">
     <div className="about-image">
-      <img src={User} alt="Logo" />
+      <img src={User} alt="Logo" className="grayscale" />
     </div>
     <div className="about-text" data-aos="fade-up">
       <h1>Hello, I’m Samuel John Ayobami —  CodeGallantX</h1>
       <p>
-        <em>"Strive not to be a success, but rather to be of value." – Albert Einstein</em>
+        <em>&rdquo;Strive not to be a success, but rather to be of value.&ldquo; – Albert Einstein</em>
       </p>
       <p>
         I’m a frontend and backend developer dedicated to creating fast, intuitive, and impactful web applications. My work combines sleek designs with functional features, ensuring seamless user experiences across all devices.

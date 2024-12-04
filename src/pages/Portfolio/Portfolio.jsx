@@ -56,7 +56,7 @@ const Portfolio = () => {
             </p>
             <motion.span
               className="arrow-icon"
-              onClick={() => navigate("/portfolio/designer")}
+              onClick={() => navigate("/portfolio")}
               {...hoverEffect} 
             >
               Check My Designs →
