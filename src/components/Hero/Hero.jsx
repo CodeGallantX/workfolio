@@ -2,8 +2,8 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Hero.css';
-import HeroImage from '../../assets/idee.jpg';
-// import HeroImage from '/profile.jpeg';
+// import HeroImage from '../../assets/idee.jpg';
+import HeroImage from '/profile.jpeg';
 
 const Hero = () => {
   useEffect(() => {
