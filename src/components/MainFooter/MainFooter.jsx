@@ -9,7 +9,7 @@ const MainFooter = () => {
         <div className='footer-top-left'>
           {/* <img src={logo} alt="Company Logo" /> */}
           <a href='/' className='text-3xl font-medium text-gray-600 hover:text-[#5e89ed] transition-all duration-300 ease'>Code<span className="text-[#5e89ed]">Gallant</span>X</a>
-          <p className="italic text-gray-500">&ldquo;A transformer is not defined by the cog in its chest, but by spark in its heart...&rdquo;</p>
+          <p className="italic text-gray-500">&ldquo;A transformer is not defined by the cog in its chest, but by the spark in its heart...&rdquo;</p>
         </div>
         <div className='footer-top-right'>
           <div className="flex flex-row items-center justify-center">
@@ -20,7 +20,7 @@ const MainFooter = () => {
               className="outline-none px-6 w-full text-gray-600 border border-gray-300 rounded-md py-3 focus:ring-1 focus:ring-accent-color transition-all duration-300 ease-in-out rounded-xl"
             />
           </div>
-          <div className="subscribe">Subscribe</div>
+          <div className="subscribe w-full">Subscribe</div>
         </div>
       </div>
       <hr />
