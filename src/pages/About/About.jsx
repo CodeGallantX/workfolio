@@ -31,7 +31,7 @@ const About = () => {
       <div className="about-container">
   <div className="about-content">
     <div className="about-image">
-      <img src={User} alt="Logo" className="grayscale" />
+      <img src={User} alt="Logo" />
     </div>
     <div className="about-text" data-aos="fade-up">
       <h1>Hello, I’m Samuel John Ayobami —  CodeGallantX</h1>
