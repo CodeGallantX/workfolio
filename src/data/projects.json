@@ -48,7 +48,7 @@
       "github": "https://github.com/codegallantx/relecloud"
   },
   {
-      "title": "Chef",
+      "title": "CHEF",
       "description": "A kitchenware e-commerce website",
       "image": "https://portfoliox-navy.vercel.app/Images/chef.png",
       "link": "https://chef-store-cgx.vercel.app/",
@@ -58,9 +58,17 @@
   {
       "title": "NodeFall",
       "description": "NodeFall is a game-hosting platform that allows users to host games...",
-      "image": "https://portfoliox-navy.vercel.app/Images/chef.png",
+      "image": "https://portfoliox-navy.vercel.app/Images/Nodefall.jpeg",
       "link": "https://nodefall.vercel.app/",
       "stack": ["HTML", "CSS", "JavaScript"],
       "github": "https://github.com/codegalantx/nodefall"
+  },
+  {
+      "title": "Zorin PC",
+      "description": "A web-clone of the Zorin OS - Linux",
+      "image": "https://portfoliox-navy.vercel.app/Images/ZorinOS.jpeg",
+      "link": "https://zorin-pc.vercel.app/",
+      "stack": ["HTML", "CSS", "JavaScript"],
+      "github": "https://github.com/codegalantx/zorin-PC"
   }
 ]
