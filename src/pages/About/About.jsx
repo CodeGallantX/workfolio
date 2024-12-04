@@ -28,69 +28,49 @@ const About = () => {
       </div>
 
       <div className="about-container">
-        <div className="about-content">
-          <div className="about-image">
-            <img src={User} alt="Logo" />
-          </div>
-          <div className="about-text" data-aos="fade-up">
-            <h1>Hello, I'm Samuel John.</h1>
+  <div className="about-content">
+    <div className="about-image">
+      <img src={User} alt="Logo" />
+    </div>
+    <div className="about-text" data-aos="fade-up">
+      <h1>Hello, I’m Samuel John Ayobami —  CodeGallantX</h1>
+      <p>
+        <em>"Strive not to be a success, but rather to be of value." – Albert Einstein</em>
+      </p>
+      <p>
+        I’m a frontend and backend developer dedicated to creating fast, intuitive, and impactful web applications. My work combines sleek designs with functional features, ensuring seamless user experiences across all devices.
+      </p>
+      <h2>Career Focus</h2>
+      <p>
+        With expertise in frontend tools like React, NextJS Tailwind CSS, and JavaScript, and backend frameworks like Django, I craft full-stack solutions that deliver value and drive impact. I’m currently seeking opportunities to contribute my skills to innovative projects and teams.
+      </p>
+      <h2>Education</h2>
+      <p>
+        I’m pursuing a Bachelor’s degree in Computer Science at Lagos State University of Science and Technology. My academic journey complements my professional development, equipping me with a solid foundation in technology and problem-solving.
+      </p>
+      <h2>Notable Projects</h2>
+      <ul>
+        <li><strong>CivicTrack</strong>: A platform designed to promote political transparency in Africa, focusing on Nigerian politicians.  </li>
+        <li><strong>LevelUP Recyclers</strong>: A website developed to support waste management efforts, combining efficiency with an eco-conscious design.  </li>
+        <li><strong>EduConnect</strong>: A peer-learning platform tailored for students to share knowledge and collaborate effectively.</li>
+      </ul>
+      <h2>Community Impact</h2>
+      <p>
+        As someone passionate about giving back, I actively contribute to community-focused initiatives. I’ve been working on projects like <strong>Donify</strong>, aimed at fostering sharing and collaboration within local communities.
+      </p>
+      <h2>Beyond Code</h2>
+      <p>
+        When I’m not coding, I enjoy exploring creative ideas, mentoring others, and working on projects that make a difference. I’m always ready to listen to good music and help people become their best selves.
+      </p>
+      <p>
+        <a href="#">Hire Me</a> | <a href="#">Say Hello</a>
+      </p>
+      <MoreInfo />
+      <Stack />
+    </div>
+  </div>
+</div>
 
-            <p>Well, if you are here, you know me.</p>
-
-            <p>You know I don't do it at all unless it is done right.</p>
-
-            <p>My name is Samuel John Ayobami — but you can call me CodeGallantX</p>
-            <p>
-              I’m currently a Frontend Web Developer, based in Lagos, Nigeria. I use React to create beautiful, functional websites. Right now, <a href="https://docs.google.com/document/d/12_OZNg2Ae8xLvymKcp5qaXHZE-obTlYNlNAxQ_nS5UI/view?tab=t.0">I’m looking for a job</a> where I can put my skills to good use and work on meaningful projects.
-            </p>
-            <h2>Student</h2>
-            <p>
-              Alongside my career in tech, I’m pursuing a degree in Accounting at the University of Lagos, Nigeria. I also recently graduated from <a href="https://the-curve.africa/">The Curve by Kora</a> as a Frontend Developer, where I had the privilege of mentoring a mentee after graduating.
-            </p>
-            <h2>Team Lead</h2>
-            <p>
-              In September 2024, I led a team of 5 to victory at The Curve by Kora Hackathon. Out of 12 teams, we came in first place for our standout work on UI, functionality, and presentation with <a href="https://kindraise.vercel.app/">KindRaise</a>.
-            </p>
-
-            <h2>Author</h2>
-
-            <p>
-              Apart from being a Developer, I’ve written two books:
-            </p>
-            <ul>
-              <li>
-                <strong>10 Things You Need to Know Before Leaving Home</strong> (October 2021): 
-              </li>
-              <p>A simple guide to help anyone get ready for living on their own. <a href="#">Get it here.</a>
-              </p>
-              <li>
-                <strong>Leaving Home Made Easy</strong> (November 2022):
-              </li>
-              <p>A step-by-step plan for making the move to adulthood easier. <a href="#">Get it here.</a></p>
-            </ul>            
-            <h2>            Impact Leader            </h2>
-            <p>
-              As someone who left home at a young age and found success, I was inspired to start an academy to help girls, especially those who have run away, navigate their transition to independence. <a href="#">Join the community here.</a>
-            </p>
-
-            <h2>Content Creator</h2>
-            <p>
-              On my <a href="https://www.instagram.com/thetosinfaith/">Instagram</a>, I share content about technology, my personal journey as a dev, and useful tips to help runaway grow.
-            </p>
-            <p>
-              When I’m not coding, I listen to my (<a href="https://open.spotify.com/playlist/1EVE9kOZ2i4171hNdvWVhU">playlist</a>) and help people be their best selves.
-            </p>
-            <p>
-              <a href="https://www.instagram.com/thetosinfaith/">Say Hello</a>
-            </p>
-            <p>
-              <a href="#">Hire Me</a>
-            </p>
-            <MoreInfo/>
-            <Stack/>
-          </div>
-        </div>
-      </div>
       <Footer/>
     </>
   );

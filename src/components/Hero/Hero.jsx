@@ -28,7 +28,7 @@ const Hero = () => {
             <span className="highlight">Front-End Developer</span> <br />
           </h1>
           <h6 className="subtitle">
-            I build frontend applications. Sometimes I design, and  I work on the backend. I ensure that the apps I deliver are fast, easy to use, and responsive.
+          I develop responsive and user-friendly frontend applications, ensuring they are fast, intuitive, and accessible across all devices. I also contribute to backend development and occasionally design interfaces to deliver seamless and visually appealing solutions.
           </h6>
           <div className="social-icons">
             <a href="https://wa.me/+2348096044860" target="_blank" rel="noopener noreferrer">

@@ -2,49 +2,65 @@
   {
       "title": "Tripout.co",
       "description": "KindRaise helps non-profits raise money easily, was developed during a hackathon with a team of five.",
-      "image": "/kindraise.jpg",
+      "image": "/tripout.png",
       "link": "http://tripout-tour-v4.vercel.app",
-      "stack": ["React", "Redux", "Laravel", "SQL"],
+      "stack": ["React", "TailwindCSS"],
       "github": "https://github.com/codegallantx/kindraise"
   },
   {
       "title": "CivicTrack",
-      "description": "CivicTrack is an open database...",
-      "image": "/cliqueshoppa.png",
-      "link": "https://civictrack.vercel.app/",
+      "description": "CivicTrack is an open database platform designed to promote political transparency in Africa, focusing on Nigerian politicians.",
+      "image": "/civictrack.png",
+      "link": "https://civic-track-tkhv.vercel.app/",
       "stack": ["NextJS", "TailwindCSS", "JSON"],
       "github": "https://github.com/codegallantx/civictrack"
   },
   {
     "title": "LevelUp Recyclers",
-    "description": "Micdee is a real estate company in Sub-Saharan Africa. House agents can put up listings of houses for sale, lease, or rent.",
-    "image": "/micdee.png",
+    "description": "A website developed to support waste management efforts, combining efficiency with an eco-conscious design.",
+    "image": "",
     "link": "https://leveluprecyclers.com/",
-    "stack": ["NextJS", "TailwindCSS"],
+    "stack": ["NextJS", "TailwindCSS", "TypeScript"],
     "github": ""
   },
   {
+      "title": "EkoStudy",
+      "description": "EkoStudy is an online learning platform for University students",
+      "image": "https://ik.imagekit.io/mshcgnjju/EkoStudy/ScreenShot%20Tool%20-20240805011237.png",
+      "link": "https://ekostudy.vercel.app",
+      "stack": ["HTML", "CSS", "JavaScript"],
+      "github": "https://github.com/codegallantx/ekostudy"
+    },
+    {
+      "title": "EduConnect",
+      "description": "A platform for students to ask questions and to answer questions...",
+      "image": "/educonnect.png",
+      "link": "https://educonnect-beryl.vercel.app/",
+      "stack": ["NextJS", "TailwindCSS"],
+      "github": "https://github.com/codegallantx/educonnect"
+    },
+  {
       "title": "ReleCloud",
       "description": "ReleCloud is a space travel agency...",
-      "image": "/rhai.png",
+      "image": "",
       "link": "",
       "stack": ["HTML", "TailwindCSS", "Python", "Django"],
       "github": "https://github.com/codegallantx/relecloud"
   },
   {
-    "title": "EduConnect",
-    "description": "A platform for students to ask questions and to answer questions...",
-    "image": "/tade.png",
-    "link": "https://leter-to-my-crush.vercel.app/",
-    "stack": ["React", "Node.js"],
-    "github": "https://github.com/codegallantx/educonect"
-  },
-  {
       "title": "Chef",
       "description": "A kitchenware e-commerce website",
-      "image": "/todolist.png",
-      "link": "https://todo-list-thetosinfaith.vercel.app/",
+      "image": "https://portfoliox-navy.vercel.app/Images/chef.png",
+      "link": "https://chef-store-cgx.vercel.app/",
       "stack": ["React", "TailwindCSS"],
       "github": "https://github.com/username/todo-list"
+  },
+  {
+      "title": "NodeFall",
+      "description": "NodeFall is a game-hosting platform that allows users and host games...",
+      "image": "https://portfoliox-navy.vercel.app/Images/chef.png",
+      "link": "https://nodefall.vercel.app/",
+      "stack": ["HTML", "CSS", "JavaScript"],
+      "github": "https://github.com/codegalantx/nodefall"
   }
 ]
