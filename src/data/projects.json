@@ -1,11 +1,11 @@
 [
   {
       "title": "Tripout.co",
-      "description": "KindRaise helps non-profits raise money easily, was developed during a hackathon with a team of five.",
+      "description": "Tripout.co is a travel agency that helps you plan any kind of trip, short weekend holiday, or a vacation, while helping you save the money needed to pay the trip fees.",
       "image": "/tripout.png",
       "link": "http://tripout-tour-v4.vercel.app",
       "stack": ["React", "TailwindCSS"],
-      "github": "https://github.com/codegallantx/kindraise"
+      "github": "https://github.com/codegallantx/tripout-tour"
   },
   {
       "title": "CivicTrack",
@@ -53,11 +53,11 @@
       "image": "https://portfoliox-navy.vercel.app/Images/chef.png",
       "link": "https://chef-store-cgx.vercel.app/",
       "stack": ["React", "TailwindCSS"],
-      "github": "https://github.com/username/todo-list"
+      "github": "https://github.com/codegallantx/chef"
   },
   {
       "title": "NodeFall",
-      "description": "NodeFall is a game-hosting platform that allows users and host games...",
+      "description": "NodeFall is a game-hosting platform that allows users to host games...",
       "image": "https://portfoliox-navy.vercel.app/Images/chef.png",
       "link": "https://nodefall.vercel.app/",
       "stack": ["HTML", "CSS", "JavaScript"],
