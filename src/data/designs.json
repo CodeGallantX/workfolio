@@ -8,8 +8,8 @@
       "category": "UI/UX Design"
     },
     {
-      "title": "ChopChop",
-      "description": "ChopChop is a food ordering app that makes it quick and easy to browse menus, place orders, and get your food delivered straight to your door.",
+      "title": "Akatsuki",
+      "description": "Akatsuki is a food ordering app that makes it quick and easy to browse menus, place orders, and get your food delivered straight to your door.",
       "image": "/chopchop.png",
       "link": "https://www.figma.com/design/vlvqB4VoOZdvqw8cZzzIjJ/ChopChop?node-id=0-1&t=LKWBDo8HiIlnRf68-1",
       "tools_used": ["Adobe XD", "React", "Tailwind CSS"],

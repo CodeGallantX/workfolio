@@ -8,6 +8,14 @@
       "github": "https://github.com/codegallantx/tripout-tour"
   },
   {
+      "title": "StatEase",
+      "description": "A user-friendly statistics app for descriptive analysis, data visualizations, and inferential statistics",
+      "image": "/civictrack.png",
+      "link": "https://statease.streamlit.app/",
+      "stack": ["Streamlit", "Python"],
+      "github": "https://github.com/codegallantx/state6ase"
+  },
+  {
       "title": "CivicTrack",
       "description": "CivicTrack is an open database platform designed to promote political transparency in Africa, focusing on Nigerian politicians.",
       "image": "/civictrack.png",

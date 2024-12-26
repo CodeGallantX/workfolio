@@ -36,14 +36,14 @@ const About = () => {
     <div className="about-text" data-aos="fade-up">
       <h1>Hello, I’m Samuel John Ayobami —  CodeGallantX</h1>
       <p>
-        <em>&rdquo;Strive not to be a success, but rather to be of value.&ldquo; – Albert Einstein</em>
+        <em>&rdquo;What defines a transformer is not the cog in its chest, but the spark that resides in their core&ldquo; – Alpha Trion</em>
       </p>
       <p>
         I’m a frontend and backend developer dedicated to creating fast, intuitive, and impactful web applications. My work combines sleek designs with functional features, ensuring seamless user experiences across all devices.
       </p>
       <h2>Career Focus</h2>
       <p>
-        With expertise in frontend tools like React, NextJS Tailwind CSS, and JavaScript, and backend frameworks like Django, I craft full-stack solutions that deliver value and drive impact. I’m currently seeking opportunities to contribute my skills to innovative projects and teams.
+        With expertise in frontend tools like React, NextJS, Tailwind CSS, and JavaScript, and backend language such as Python; and frameworks like Django, and Streamlit; I craft full-stack solutions that deliver value and drive impact. I’m currently seeking opportunities to contribute my skills to innovative projects and teams.
       </p>
       <h2>Education</h2>
       <p>
@@ -52,16 +52,16 @@ const About = () => {
       <h2>Notable Projects</h2>
       <ul>
         <li><strong>CivicTrack</strong>: A platform designed to promote political transparency in Africa, focusing on Nigerian politicians.  </li>
-        <li><strong>LevelUP Recyclers</strong>: A website developed to support waste management efforts, combining efficiency with an eco-conscious design.  </li>
+        <li><strong>StatEase</strong>: A user-friendly statistics app for descriptive analysis, visualizations, and more!  </li>
         <li><strong>EduConnect</strong>: A peer-learning platform tailored for students to share knowledge and collaborate effectively.</li>
       </ul>
       <h2>Community Impact</h2>
       <p>
-        As someone passionate about giving back, I actively contribute to community-focused initiatives. I’ve been working on projects like <strong>Donify</strong>, aimed at fostering sharing and collaboration within local communities.
+        As someone passionate about giving back, I actively contribute to community-focused initiatives. I’ve been working on projects like <strong>Donify</strong> and <strong>Cycle-It</strong>, aimed at fostering sharing and collaboration within local communities and improving waste management for a better environment.
       </p>
       <h2>Beyond Code</h2>
       <p>
-        When I’m not coding, I enjoy exploring creative ideas, mentoring others, and working on projects that make a difference. I’m always ready to listen to good music and help people become their best selves.
+        When I’m not coding, I enjoy exploring creative ideas, mentoring others, and making researches that make a difference. I’m always ready to listen to good music and help people become their best selves.
       </p>
       <p>
         <a href="#">Hire Me</a> | <a href="#">Say Hello</a>
