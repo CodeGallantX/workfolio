@@ -10,10 +10,18 @@
   {
       "title": "StatEase",
       "description": "A user-friendly statistics app for descriptive analysis, data visualizations, and inferential statistics",
-      "image": "/civictrack.png",
+      "image": "/Statease.png",
       "link": "https://statease.streamlit.app/",
       "stack": ["Streamlit", "Python"],
-      "github": "https://github.com/codegallantx/state6ase"
+      "github": "https://github.com/codegallantx/statease"
+  },
+  {
+    "title": "STEM-HUB",
+    "description": "A web app for interactive STEM learning and simulations.",
+    "image": "/stemhub.png",
+    "link": "https://stem-hub.vercel.app/",
+    "stack": ["NextJS", "TailwindCSS", "JavaScript"],
+    "github": "https://github.com/codegalantx/stem-hub"
   },
   {
       "title": "CivicTrack",
@@ -73,7 +81,7 @@
   },
   {
       "title": "Zorin PC",
-      "description": "A web-clone of the Zorin OS - Linux",
+      "description": "A web-clone of the Zorin OS - Linux interface",
       "image": "https://portfoliox-navy.vercel.app/Images/ZorinOS.jpeg",
       "link": "https://zorin-pc.vercel.app/",
       "stack": ["HTML", "CSS", "JavaScript"],
